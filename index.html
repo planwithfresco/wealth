@@ -84,7 +84,7 @@ body.lang-zh .hero .services{font-size:16.2px;letter-spacing:.06em}
 .bars i:nth-child(1){background:var(--b1)}.bars i:nth-child(2){background:var(--b2)}.bars i:nth-child(3){background:var(--b3)}.bars i:nth-child(4){background:var(--b4)}
 
 /* sections */
-section{padding:88px 0;scroll-margin-top:88px}
+section{padding:88px 0;scroll-margin-top:24px}
 section.tint{background:var(--tint)}
 .eyebrow{display:flex;align-items:center;gap:10px;font-size:14.9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--navy);margin-bottom:14px}
 .eyebrow::before{content:"";width:12px;height:12px;background:var(--navy);flex:none}
@@ -314,6 +314,7 @@ body.lang-zh .art-body p{font-size:19.4px;line-height:1.9}
   .art-head{padding:56px 0 40px}
 }
 .facts dd a{color:var(--ink)}
+@media(max-width:900px){section{scroll-margin-top:36px}}
 .lang button,.lang .langlink{white-space:nowrap}
 @media(max-width:900px){.lang button,.lang .langlink{padding:5px 8px}nav .wrap{gap:12px}}
 </style>
@@ -323,7 +324,7 @@ body.lang-zh .art-body p{font-size:19.4px;line-height:1.9}
   <ul>
     <li><a href="index.html" data-p="home"><span class="en">Home</span><span class="zh-only">首頁</span></a></li>
     <li><a href="#services"><span class="en">Services</span><span class="zh-only">服務</span></a></li>
-    <li><a href="insights.html" data-p="insights"><span class="en">Insights</span><span class="zh-only">觀點</span></a></li>
+    <li><a href="#insights"><span class="en">Insights</span><span class="zh-only">觀點</span></a></li>
     <li><a href="#about"><span class="en">About</span><span class="zh-only">關於</span></a></li>
     <li><a href="https://calendly.com/fresco-su/discovery" target="_blank" rel="noopener" class="btn"><span class="en">Start a conversation</span><span class="zh-only">開始對話</span></a></li>
     <li class="chatli"><a class="chat-ico wa en" href="https://wa.me/6592701582?text=Hi%20Fresco%2C%20I%20found%20you%20through%20your%20website." target="_blank" rel="noopener" aria-label="Chat on WhatsApp" title="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></a><a class="chat-ico ln zh-only" href="https://line.me/ti/p/QPWZHCPAes" target="_blank" rel="noopener" aria-label="用 LINE 聯絡我" title="LINE"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63h2.386c.346 0 .627.285.627.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63.346 0 .628.285.628.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.282.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg></a></li>
@@ -521,6 +522,18 @@ body.lang-zh .art-body p{font-size:19.4px;line-height:1.9}
   set(lang);
   document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',function(){set(b.dataset.l)})});
   var p=document.body.dataset.page;document.querySelectorAll('nav a[data-p]').forEach(function(a){if(a.dataset.p===p)a.classList.add('active')});
+})();
+</script>
+<script>
+(function(){
+  var links=[].slice.call(document.querySelectorAll('nav ul a[href^="#"], nav ul a[data-p="home"]'));
+  var secs=['services','insights','about'].map(function(id){return document.getElementById(id)}).filter(Boolean);
+  function upd(){
+    var nav=document.querySelector('nav');var y=window.scrollY+(nav?nav.offsetHeight:80)+60;var cur='home';
+    secs.forEach(function(s){if(s.getBoundingClientRect().top+window.scrollY<=y)cur=s.id});
+    links.forEach(function(a){var k=a.dataset.p==='home'?'home':a.getAttribute('href').slice(1);a.classList.toggle('active',k===cur)});
+  }
+  window.addEventListener('scroll',upd,{passive:true});window.addEventListener('hashchange',upd);upd();
 })();
 </script>
 </body></html>
